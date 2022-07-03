@@ -34,7 +34,7 @@ jobs:
           node-version: 16
       
       - name: 安装依赖
-        run: num install
+        run: npm install
 
       - name: 构建项目
         run: npm run build
